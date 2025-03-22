@@ -1,21 +1,27 @@
-# NotificationSystem
+# Overview
 
-**TODO: Add description**
+The program is a Notification System attempting to utilize Twilio and Swoosh for the modules using Elixir. The program thus far takes in a Twilio made Authentication, Token, and Phone Number in an attempt to send a message to the designated phone number.
 
-## Installation
+[Notification System Demo](https://youtu.be/yu4A_ZQHIY8)
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `notification_system` to your list of dependencies in `mix.exs`:
+# Development Environment
 
-```elixir
-def deps do
-  [
-    {:notification_system, "~> 0.1.0"}
-  ]
-end
-```
+The tools used for this program are the Twilio and Swoosh modules as well as utilizing Elixir, a funtional programming language built on top of the Erlang BEAM. 
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/notification_system](https://hexdocs.pm/notification_system).
+# Useful Websites
+
+The following websites helped me in making this program:
+
+- [Twilio Documentation](https://www.twilio.com/docs)
+- [Swoosh Documentation](https://hexdocs.pm/swoosh/Swoosh.html)
+- [Elixir Documentation](https://elixir-lang.org/docs.html)
+- [Virtual Phone Setup](https://www.twilio.com/)
+
+# Future Work
+
+Future improvements to make for this program include:
+
+- Viewing an actual message on Twilio, besides only recieveing and API call.
+- Get the Swoosh email portion of the program working and fleshed out.
+- Possibly send notifications to multiple platforms.
 
